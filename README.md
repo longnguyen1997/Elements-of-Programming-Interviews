@@ -18,7 +18,7 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 5.2 Add 1 to an arbitrary integer
 - [ ] 5.3 Multiply 2 arbitrary-precision integers
 - [ ] 5.4 Advance through an array
-- [ ] 5.5 Remove duplicates from a sorted array
+- [x] 5.5 Remove duplicates from a sorted array
 - [ ] 5.6 Buy and sell stock
 - [ ] 5.7 Buy and sell stock (II)
 - [ ] 5.8 Compute an array alternation
