@@ -2,9 +2,9 @@
 
 ## Introduction
 
-EPI Judge is meant to serve as a companion to the book *Elements of Programming Interviews*.
+EPI Judge is meant to serve as a companion to *Elements of Programming Interviews in Python*.
 
-This repository contains Python solutions implemented by Long Nguyen.
+This repository contains solutions implemented by Long Nguyen.
 
 ## Running the judge from the command line
 
@@ -14,8 +14,16 @@ This repository contains Python solutions implemented by Long Nguyen.
 
 ## Problems completed
 ### Arrays
-- [x] 5.1 Dutch national flag
-- [x] 5.2 Adding 1 to an arbitrary integer
+- [x] 5.1 Sort via the Dutch national flag
+- [x] 5.2 Add 1 to an arbitrary integer
+- [ ] 5.3 Multiply 2 arbitrary-precision integers
+- [ ] 5.4 Advance through an array
+- [ ] 5.5 Remove duplicates from a sorted array
+- [ ] 5.6 Buy and sell stock
+- [ ] 5.7 Buy and sell stock (II)
+- [ ] 5.8 Compute an array alternation
+- [ ] 5.9 Compute all primes up to *n*
+- [ ] 5.10 Permute an array given a permutation
 
 ## Tracking your progress
 
