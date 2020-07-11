@@ -16,7 +16,7 @@ This repository contains solutions implemented by Long Nguyen.
 ### Arrays
 - [x] 5.1 Sort via the Dutch national flag
 - [x] 5.2 Add 1 to an arbitrary integer
-- [ ] 5.3 Multiply 2 arbitrary-precision integers
+- [x] 5.3 Multiply 2 arbitrary-precision integers
 - [ ] 5.4 Advance through an array
 - [x] 5.5 Remove duplicates from a sorted array
 - [ ] 5.6 Buy and sell stock
