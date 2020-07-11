@@ -17,13 +17,23 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 5.1 Sort via the Dutch national flag
 - [x] 5.2 Add 1 to an arbitrary integer
 - [x] 5.3 Multiply 2 arbitrary-precision integers
-- [ ] 5.4 Advance through an array
+- [x] 5.4 Advance through an array
 - [x] 5.5 Remove duplicates from a sorted array
-- [ ] 5.6 Buy and sell stock
-- [ ] 5.7 Buy and sell stock (II)
-- [ ] 5.8 Compute an array alternation
+- [x] 5.6 Buy and sell a stock
+- [x] 5.7 Buy and sell a stock twice
+- [x] 5.8 Compute an array alternation
 - [ ] 5.9 Compute all primes up to *n*
 - [ ] 5.10 Permute an array given a permutation
+- [ ] 5.11 Compute the next permutation
+- [ ] 5.12 Sample offline data
+- [ ] 5.13 Sample online data
+- [ ] 5.14 Compute a random permutation
+- [ ] 5.15 Compute a random subset
+- [ ] 5.16 Generate nonuniform random numbers
+- [ ] 5.17 Check a Sudoku board
+- [ ] 5.18 Compute a matrix's spiral ordering
+- [ ] 5.19 Rotate a matrix
+- [ ] 5.20 Compute rows of Pascal's Triangle
 
 ## Tracking your progress
 
