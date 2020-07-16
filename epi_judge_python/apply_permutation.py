@@ -28,6 +28,8 @@ def apply_permutation(perm: List[int], A: List[str]) -> None:
         # Still need to move the last placeholder to the cycle origin.
         A[i] = current_val
         P[current_index] -= N # Mark index right before cycle origin as visited.
+    for i in range(N):
+        P[i] += N
     return
 
     '''
