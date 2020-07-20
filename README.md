@@ -64,6 +64,8 @@ This repository contains solutions implemented by Long Nguyen.
 - [ ] 7.13 Add list-based integers
 ### Stacks & queues
 - [x] 8.1 Implement a stack with a Max() API
+### Binary trees
+- [x] 9.1 Check if a binary tree is balanced
 
 ## Tracking your progress
 
