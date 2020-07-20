@@ -7,11 +7,23 @@ from test_framework import generic_test
 from test_framework.random_sequence_checker import (
     check_sequence_is_uniformly_random, run_func_with_retries)
 from test_framework.test_utils import enable_executor_hook
-
+from random import randint
+from offline_sampling import random_sampling
 
 def compute_random_permutation(n: int) -> List[int]:
-    # TODO - you fill in here.
-    return []
+
+    P = list(range(n))
+    random_sampling(n, P)
+    return P
+
+    if n == 0:
+        return [0]
+    P = list(range(n))
+    for i in range(n):
+        j = randint(i, n - 1)
+        P[i], P[j] = P[j], P[i]
+    return P
+    
 
 
 @enable_executor_hook

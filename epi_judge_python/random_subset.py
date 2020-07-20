@@ -6,11 +6,16 @@ from test_framework.random_sequence_checker import (
     binomial_coefficient, check_sequence_is_uniformly_random,
     compute_combination_idx, run_func_with_retries)
 from test_framework.test_utils import enable_executor_hook
-
+from random import randint
 
 def random_subset(n: int, k: int) -> List[int]:
-    # TODO - you fill in here.
-    return []
+    S = {} # O(k) space.
+    for i in range(k):
+        # Choose a random index.
+        j = randint(i, n - 1)
+        # Swap with the rest.
+        S[i], S[j] = j if j not in S else S[j], i if i not in S else S[i]
+    return [S[i] for i in range(k)]
 
 
 @enable_executor_hook

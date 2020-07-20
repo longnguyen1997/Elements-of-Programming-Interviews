@@ -26,14 +26,14 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 5.10 Permute an array given a permutation
 - [x] 5.11 Compute the next permutation
 - [x] 5.12 Sample offline data
-- [ ] 5.13 Sample online data
-- [ ] 5.14 Compute a random permutation
-- [ ] 5.15 Compute a random subset
-- [ ] 5.16 Generate nonuniform random numbers
-- [ ] 5.17 Check a Sudoku board
-- [ ] 5.18 Compute a matrix's spiral ordering
+- [x] 5.13 Sample online data
+- [x] 5.14 Compute a random permutation
+- [x] 5.15 Compute a random subset
+- [x] 5.16 Generate nonuniform random numbers
+- [x] 5.17 Check a Sudoku board
+- [x] 5.18 Compute a matrix's spiral ordering
 - [x] 5.19 Rotate a matrix
-- [ ] 5.20 Compute rows of Pascal's Triangle
+- [x] 5.20 Compute rows of Pascal's Triangle
 
 ## Tracking your progress
 

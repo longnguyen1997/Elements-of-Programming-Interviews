@@ -6,12 +6,23 @@ from typing import List
 from test_framework import generic_test
 from test_framework.random_sequence_checker import run_func_with_retries
 from test_framework.test_utils import enable_executor_hook
-
+from random import random
+from bisect import bisect
 
 def nonuniform_random_number_generation(values: List[int],
                                         probabilities: List[float]) -> int:
-    # TODO - you fill in here.
-    return 0
+    # O(n) to sum everything up.
+    for i in range(1, len(probabilities)):
+        probabilities[i] += probabilities[i - 1]
+    R = random()
+    log_n_find = True
+    # O(logn) to search for the bin.
+    if log_n_find:
+        return values[bisect(probabilities, R)]
+    # O(n) to search for the bin.
+    for i, p in enumerate(probabilities):
+        if R < p:
+            return values[i]
 
 
 @enable_executor_hook
