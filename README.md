@@ -34,6 +34,36 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 5.18 Compute a matrix's spiral ordering
 - [x] 5.19 Rotate a matrix
 - [x] 5.20 Compute rows of Pascal's Triangle
+### Strings
+- [x] 6.1 Convert between strings and integers
+- [ ] 6.2 Base conversion
+- [ ] 6.3 Compute the spreadsheet column encoding
+- [ ] 6.4 Replace and remove
+- [ ] 6.5 Test palindromity
+- [ ] 6.6 Reverse all the words in a sentence
+- [ ] 6.7 Compute all mnemonics for a phone number
+- [ ] 6.8 Look and say
+- [ ] 6.9 Conver from Roman to decimal format
+- [ ] 6.10 Compute all valid IP addresses
+- [ ] 6.11 Write a string sinusoidally
+- [ ] 6.12 Implement run-length encoding
+- [ ] 6.13 Find the first occurrence of a substring
+### Linked lists
+- [x] 7.1 Merge two sorted lists
+- [ ] 7.2 Reverse a single sublist
+- [ ] 7.3 Test for cycles in a linked list
+- [ ] 7.4 Test for overlapping lists (acyclic)
+- [ ] 7.5 Test for overlapping lists (cycles allowed)
+- [ ] 7.6 Delete a node from a singly-linked list
+- [ ] 7.7 Remove the k-th last element from a linked list
+- [ ] 7.8 Remove duplicates from a sorted linked list
+- [ ] 7.9 Cyclic right shift for a singly-linked list
+- [ ] 7.10 Even-odd merge
+- [ ] 7.11 Test whether a singly-linked list is palindromic
+- [ ] 7.12 Linked list pivoting
+- [ ] 7.13 Add list-based integers
+### Stacks & queues
+- [x] 8.1 Implement a stack with a Max() API
 
 ## Tracking your progress
 
