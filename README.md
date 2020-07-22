@@ -66,6 +66,12 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 8.1 Implement a stack with a Max() API
 ### Binary trees
 - [x] 9.1 Check if a binary tree is balanced
+### Heaps
+- [x] 10.1 Merge sorted files
+### Searching
+- [x] 11.1 Search a sorted array for the first occurrence of K ([a variant here for both first and last occurrences](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/))
+### Hash tables
+- [x] 12.1 Test for palindromic permutations
 
 ## Tracking your progress
 
