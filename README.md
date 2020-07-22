@@ -72,6 +72,27 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 11.1 Search a sorted array for the first occurrence of K ([a variant here for both first and last occurrences](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/))
 ### Hash tables
 - [x] 12.1 Test for palindromic permutations
+### Sorting
+- [ ] 13.1 Compute the intersection of two sorted arrays
+### Binary search trees
+- [ ] 14.1 Determine whether a binary tree satisfies the BST property
+### Recursion
+- [ ] 15.1 Towers of Hanoi
+### Dynamic programming
+- [ ] 16.1 Count the number of score combinations
+### Greedy algorithms / invariants
+- [ ] 17.1 Compute an optimal task assignment
+- [ ] 17.2 Generate a schedule that minimizes waiting time
+- [ ] 17.3 Interval covering
+- [ ] 17.4 3-Sum
+- [ ] 17.5 Find the mode of a sequence
+- [ ] 17.6 The gasup problem
+- [ ] 17.7 Maximum amount of water trapped by two bounding walls
+- [ ] 17.8 Compute the largest rectangle under a skyline
+### Graphs
+- [ ] 18.1 Searching a maze
+
+
 
 ## Tracking your progress
 

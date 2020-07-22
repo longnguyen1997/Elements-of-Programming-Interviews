@@ -6,6 +6,10 @@ def can_form_palindrome(s: str) -> bool:
     '''
     Can condense logic from the solution below
     into one condition: at most one odd count.
+
+    O(1) space, since we assume that there are only
+    26 unique characters at most in the alphabet
+    used for s.
     '''
     return sum(count % 2 for count in Counter(s).values()) <= 1
 
