@@ -73,15 +73,15 @@ This repository contains solutions implemented by Long Nguyen.
 ### Hash tables
 - [x] 12.1 Test for palindromic permutations
 ### Sorting
-- [ ] 13.1 Compute the intersection of two sorted arrays
+- [x] 13.1 Compute the intersection of two sorted arrays
 ### Binary search trees
-- [ ] 14.1 Determine whether a binary tree satisfies the BST property
+- [x] 14.1 Determine whether a binary tree satisfies the BST property
 ### Recursion
-- [ ] 15.1 Towers of Hanoi
+- [x] 15.1 Towers of Hanoi
 ### Dynamic programming
-- [ ] 16.1 Count the number of score combinations
+- [x] 16.1 Count the number of score combinations
 ### Greedy algorithms / invariants
-- [ ] 17.1 Compute an optimal task assignment
+- [x] 17.1 Compute an optimal task assignment
 - [ ] 17.2 Generate a schedule that minimizes waiting time
 - [ ] 17.3 Interval covering
 - [ ] 17.4 3-Sum

@@ -4,9 +4,13 @@ from test_framework import generic_test
 
 
 def find_maximum_subarray(A: List[int]) -> int:
-    # TODO - you fill in here.
-    return -1
-
+    # MaxSum(i) = max(MaxSum(i - 1) + A[i], A[i]),
+    # where MaxSum(i) is only for the contiguous
+    # subarray ENDING AT i, NO GAPS.
+    sums = [0] * (len(A) + 1)
+    for i in range(1, len(A) + 1):
+        sums[i] = max(sums[i - 1] + A[i - 1], A[i - 1])
+    return max(sums)
 
 if __name__ == '__main__':
     exit(
