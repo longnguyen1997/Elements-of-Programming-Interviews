@@ -36,7 +36,7 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 5.20 Compute rows of Pascal's Triangle
 ### Strings
 - [x] 6.1 Convert between strings and integers
-- [ ] 6.2 Base conversion
+- [x] 6.2 Base conversion
 - [ ] 6.3 Compute the spreadsheet column encoding
 - [ ] 6.4 Replace and remove
 - [ ] 6.5 Test palindromity
@@ -90,7 +90,7 @@ This repository contains solutions implemented by Long Nguyen.
 - [ ] 17.7 Maximum amount of water trapped by two bounding walls
 - [ ] 17.8 Compute the largest rectangle under a skyline
 ### Graphs
-- [ ] 18.1 Searching a maze
+- [x] 18.1 Searching a maze
 
 
 

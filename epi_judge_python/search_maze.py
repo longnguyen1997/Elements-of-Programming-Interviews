@@ -14,8 +14,24 @@ Coordinate = collections.namedtuple('Coordinate', ('x', 'y'))
 
 def search_maze(maze: List[List[int]], s: Coordinate,
                 e: Coordinate) -> List[Coordinate]:
-    # TODO - you fill in here.
-    return []
+    def valid(x, y):
+        return 0 <= x < len(maze) and 0 <= y < len(maze[0]) and maze[x][y] == 0
+
+    def search_maze_graph(curr, dest, path):
+        if not valid(curr.x, curr.y):
+            return []
+        path.append(curr)
+        maze[curr.x][curr.y] = 1
+        if curr == dest:
+            return path
+        i, j = curr.x, curr.y
+        for x, y in [(i - 1, j), (i, j + 1), (i + 1, j), (i, j - 1)]:
+            if search_maze_graph(Coordinate(x, y), dest, path):
+                return path
+        path.pop()
+        return []
+
+    return search_maze_graph(s, e, [])
 
 
 def path_element_is_feasible(maze, prev, cur):
@@ -23,9 +39,9 @@ def path_element_is_feasible(maze, prev, cur):
             (0 <= cur.y < len(maze[cur.x])) and maze[cur.x][cur.y] == WHITE):
         return False
     return cur == (prev.x + 1, prev.y) or \
-           cur == (prev.x - 1, prev.y) or \
-           cur == (prev.x, prev.y + 1) or \
-           cur == (prev.x, prev.y - 1)
+        cur == (prev.x - 1, prev.y) or \
+        cur == (prev.x, prev.y + 1) or \
+        cur == (prev.x, prev.y - 1)
 
 
 @enable_executor_hook

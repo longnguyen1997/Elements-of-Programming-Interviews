@@ -8,6 +8,8 @@ def reverse_list(head: ListNode) -> ListNode:
         dummy.next, head.next, head = head, dummy.next, head.next
     return dummy.next
 
+    
+
 
 if __name__ == '__main__':
     exit(
