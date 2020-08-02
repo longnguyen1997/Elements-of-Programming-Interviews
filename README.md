@@ -50,7 +50,7 @@ This repository contains solutions implemented by Long Nguyen.
 - [ ] 6.13 Find the first occurrence of a substring
 ### Linked lists
 - [x] 7.1 Merge two sorted lists
-- [ ] 7.2 Reverse a single sublist
+- [x] 7.2 Reverse a single sublist
 - [ ] 7.3 Test for cycles in a linked list
 - [ ] 7.4 Test for overlapping lists (acyclic)
 - [ ] 7.5 Test for overlapping lists (cycles allowed)
@@ -64,8 +64,10 @@ This repository contains solutions implemented by Long Nguyen.
 - [ ] 7.13 Add list-based integers
 ### Stacks & queues
 - [x] 8.1 Implement a stack with a Max() API
+- [x] 8.2 Evaluate an RPN expression
 ### Binary trees
 - [x] 9.1 Check if a binary tree is balanced
+- [x] 9.2 Find the lowest common ancestor of a binary tree
 ### Heaps
 - [x] 10.1 Merge sorted files
 ### Searching

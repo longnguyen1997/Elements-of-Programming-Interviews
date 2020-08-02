@@ -1,9 +1,24 @@
 from test_framework import generic_test
 
 
+ops = {
+    '+': lambda a, b: a + b,
+    '-': lambda a, b: a - b,
+    '*': lambda a, b: a * b,
+    '/': lambda a, b: a // b
+}
+
+
 def evaluate(expression: str) -> int:
-    # TODO - you fill in here.
-    return 0
+    op_stack = []  # Stack.
+    for exp in expression.split(','):
+        if exp not in '+-*/':
+            op_stack.append(int(exp))
+        else:
+            b = op_stack.pop()
+            a = op_stack.pop()
+            op_stack.append(ops[exp](a, b))
+    return op_stack[0]
 
 
 if __name__ == '__main__':

@@ -4,24 +4,28 @@ from list_node import ListNode
 from test_framework import generic_test
 
 
-def reverse_list(L: ListNode, precursor: ListNode) -> ListNode:
-    dummy_head = precursor
-    while L:
-        dummy_head.next, L.next, L = L, dummy_head.next, L.next
-    return dummy_head.next
-
 def reverse_sublist(L: ListNode, start: int,
                     finish: int) -> Optional[ListNode]:
-    if L is None:
-        return None
-    i, aux_L = 0, ListNode(0, L)
-    if start > 1:
-        i, aux_L = 1, L
-        while i != start - 1:
-            aux_L = aux_L.next
-            i += 1
-    
-    
+    # Nothing to reverse.
+    if start == finish:
+        return L
+    # Keep the head to return.
+    head_placeholder = predecessor = ListNode(next=L)
+    # Advance the predecessor to the correct spot.
+    for _ in range(1, start):
+        predecessor = predecessor.next
+    # Start reversing at start node as previous
+    # (previous node's next doesn't get affected).
+    previous = predecessor.next
+    current = previous.next
+    for _ in range(finish - start):
+        next_temp = current.next
+        current.next = previous
+        previous, current = current, next_temp
+    # Set new successors.
+    predecessor.next.next = current
+    predecessor.next = previous
+    return head_placeholder.next
     
 
 

@@ -3,12 +3,17 @@ from test_framework import generic_test
 
 
 def reverse_list(head: ListNode) -> ListNode:
+    previous = None
+    current = head
+    while current:
+        current.next, previous, current = \
+            previous, current, current.next
+    return previous
+
     dummy = ListNode(0)
     while head:
         dummy.next, head.next, head = head, dummy.next, head.next
     return dummy.next
-
-    
 
 
 if __name__ == '__main__':
