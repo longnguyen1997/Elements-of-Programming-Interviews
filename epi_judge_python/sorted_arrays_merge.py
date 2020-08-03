@@ -16,7 +16,7 @@ def merge_sorted_arrays(sorted_arrays: List[List[int]]) -> List[int]:
     '''
     output = []
     # O(K).
-    heap = [(-sorted_arrays[i].pop(), i) for i in range(len(sorted_arrays)) if sorted_arrays[i]]
+    heap = [(-sorted_arrays[i].pop(), i) for i in range(len(sorted_arrays))]
     heapify(heap) # O(K) to build a heap.
     # O(NlogK) total, since we need to look at all N elements.
     while heap:
@@ -26,7 +26,8 @@ def merge_sorted_arrays(sorted_arrays: List[List[int]]) -> List[int]:
         if sorted_arrays[i]:
             heappush(heap, (-sorted_arrays[i].pop(), i))
     # O(N) to reverse and return.
-    return output[::-1]
+    output.reverse()
+    return output
     
     '''
     Get all values and heapify them.

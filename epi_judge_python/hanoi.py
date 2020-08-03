@@ -12,9 +12,9 @@ def compute_tower_hanoi(num_rings: int) -> List[List[int]]:
     def transfer_rings(n, from_peg, to_peg, intermediate_peg, result=[]):
         if n == 0:
             return result
-        transfer_rings(n-1, from_peg, intermediate_peg, to_peg, result)
+        transfer_rings(n - 1, from_peg, intermediate_peg, to_peg, result)
         result.append([from_peg, to_peg])
-        transfer_rings(n-1, intermediate_peg, to_peg, from_peg, result)
+        transfer_rings(n - 1, intermediate_peg, to_peg, from_peg, result)
         return result
     return transfer_rings(num_rings, 0, 1, 2)
 

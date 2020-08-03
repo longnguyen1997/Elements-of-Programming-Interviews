@@ -2,12 +2,30 @@ from typing import Optional
 
 from bst_node import BstNode
 from test_framework import generic_test
-
+from collections import deque
 
 def find_first_greater_than_k(tree: BstNode, k: int) -> Optional[BstNode]:
-    # TODO - you fill in here.
-    return None
 
+    ''' O(h) = O(logn) time and O(1) space. '''
+    candidate = None
+    while tree:
+        if tree.data > k:
+            candidate, tree = tree, tree.left
+        else:
+            tree = tree.right
+    return candidate
+
+    ''' O(n) time and space. '''
+    def inorder(tree, path=[]):
+        if tree is None:
+            return path
+        inorder(tree.left)
+        path.append(tree)
+        inorder(tree.right)
+        return path
+    for node in inorder(tree):
+        if node.data > k:
+            return node
 
 def find_first_greater_than_k_wrapper(tree, k):
     result = find_first_greater_than_k(tree, k)

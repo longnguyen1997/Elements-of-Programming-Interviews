@@ -70,14 +70,19 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 9.2 Find the lowest common ancestor of a binary tree
 ### Heaps
 - [x] 10.1 Merge sorted files
+- [x] 10.2 Sort an increasing-decreasing array
 ### Searching
 - [x] 11.1 Search a sorted array for the first occurrence of K ([a variant here for both first and last occurrences](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/))
+- [x] 11.2 Search a sorted array for entry equal to the index
 ### Hash tables
 - [x] 12.1 Test for palindromic permutations
+- [x] 12.2 Is an anonymous letter constructible?
 ### Sorting
 - [x] 13.1 Compute the intersection of two sorted arrays
+- [x] 13.2 Merge two sorted arrays
 ### Binary search trees
 - [x] 14.1 Determine whether a binary tree satisfies the BST property
+- [x] 14.2 Find the first key greater than a given value in a BST
 ### Recursion
 - [x] 15.1 Towers of Hanoi
 ### Dynamic programming
