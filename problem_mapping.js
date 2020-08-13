@@ -2002,7 +2002,7 @@ problem_mapping = {
                 "total": 10
             },
             "Python: n_queens.py": {
-                "passed": 0,
+                "passed": 10,
                 "total": 10
             }
         },
@@ -2170,7 +2170,7 @@ problem_mapping = {
                 "total": 100
             },
             "Python: levenshtein_distance.py": {
-                "passed": 0,
+                "passed": 100,
                 "total": 100
             }
         },
@@ -2354,7 +2354,7 @@ problem_mapping = {
                 "total": 501
             },
             "Python: minimum_waiting_time.py": {
-                "passed": 0,
+                "passed": 501,
                 "total": 501
             }
         },

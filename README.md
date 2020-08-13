@@ -85,11 +85,13 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 14.2 Find the first key greater than a given value in a BST
 ### Recursion
 - [x] 15.1 Towers of Hanoi
+- [x] 15.2 n-Queens
 ### Dynamic programming
 - [x] 16.1 Count the number of score combinations
+- [x] 16.2 Edit distance
 ### Greedy algorithms / invariants
 - [x] 17.1 Compute an optimal task assignment
-- [ ] 17.2 Generate a schedule that minimizes waiting time
+- [x] 17.2 Generate a schedule that minimizes waiting time
 - [ ] 17.3 Interval covering
 - [ ] 17.4 3-Sum
 - [ ] 17.5 Find the mode of a sequence
@@ -98,6 +100,7 @@ This repository contains solutions implemented by Long Nguyen.
 - [ ] 17.8 Compute the largest rectangle under a skyline
 ### Graphs
 - [x] 18.1 Searching a maze
+- [ ] 18.2 Paint a boolean matrix
 
 
 
