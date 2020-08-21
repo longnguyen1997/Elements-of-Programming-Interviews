@@ -16,8 +16,23 @@ class Name:
 
 
 def eliminate_duplicate(A: List[Name]) -> None:
-    # TODO - you fill in here.
-    return
+    A.sort(key=lambda name: (name.first_name, name.last_name))
+    if True:
+        i = 1
+        for name in A[1:]:
+            if name.first_name != A[i - 1].first_name:
+                A[i] = name
+                i += 1
+        del A[i:]
+    if False:
+        duplicates = []
+        while i > 0:
+            if A[i].first_name == A[i - 1].first_name:
+                duplicates.append(i)
+            i -= 1
+        for i in duplicates:
+            A.pop(i)
+
 
 
 @enable_executor_hook
