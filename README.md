@@ -84,9 +84,11 @@ This repository contains solutions implemented by Long Nguyen.
 ### Binary search trees
 - [x] 14.1 Determine whether a binary tree satisfies the BST property
 - [x] 14.2 Find the first key greater than a given value in a BST
+- [x] 14.3 Find the k largest values in a BST
 ### Recursion
 - [x] 15.1 Towers of Hanoi
 - [x] 15.2 n-Queens
+- [ ] 15.3 Generate permutations
 ### Dynamic programming
 - [x] 16.1 Count the number of score combinations
 - [x] 16.2 Edit distance
