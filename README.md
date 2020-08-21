@@ -77,6 +77,7 @@ This repository contains solutions implemented by Long Nguyen.
 ### Hash tables
 - [x] 12.1 Test for palindromic permutations
 - [x] 12.2 Is an anonymous letter constructible?
+- [X] 12.3 Design an LRU cache
 ### Sorting
 - [x] 13.1 Compute the intersection of two sorted arrays
 - [x] 13.2 Merge two sorted arrays
