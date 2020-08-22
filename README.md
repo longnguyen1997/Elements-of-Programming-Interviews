@@ -108,7 +108,7 @@ This repository contains solutions implemented by Long Nguyen.
 ### Graphs
 - [x] 18.1 Searching a maze
 - [x] 18.2 Paint a boolean matrix
-
+- [x] 18.3 Compute enclosed regions
 
 
 ## Tracking your progress
