@@ -37,7 +37,7 @@ This repository contains solutions implemented by Long Nguyen.
 ### Strings
 - [x] 6.1 Convert between strings and integers
 - [x] 6.2 Base conversion
-- [ ] 6.3 Compute the spreadsheet column encoding
+- [x] 6.3 Compute the spreadsheet column encoding
 - [ ] 6.4 Replace and remove
 - [ ] 6.5 Test palindromity
 - [ ] 6.6 Reverse all the words in a sentence
@@ -51,7 +51,7 @@ This repository contains solutions implemented by Long Nguyen.
 ### Linked lists
 - [x] 7.1 Merge two sorted lists
 - [x] 7.2 Reverse a single sublist
-- [ ] 7.3 Test for cycles in a linked list
+- [x] 7.3 Test for cycles in a linked list
 - [ ] 7.4 Test for overlapping lists (acyclic)
 - [ ] 7.5 Test for overlapping lists (cycles allowed)
 - [ ] 7.6 Delete a node from a singly-linked list
@@ -65,15 +65,19 @@ This repository contains solutions implemented by Long Nguyen.
 ### Stacks & queues
 - [x] 8.1 Implement a stack with a Max() API
 - [x] 8.2 Evaluate an RPN expression
+- [x] 8.3 Test a parenthesized string for wellness
 ### Binary trees
 - [x] 9.1 Check if a binary tree is balanced
-- [x] 9.2 Find the lowest common ancestor of a binary tree
+- [x] 9.2 Check if a binary tree is symmetric
+- [x] 9.3 Find the lowest common ancestor of a binary tree
 ### Heaps
 - [x] 10.1 Merge sorted files
 - [x] 10.2 Sort an increasing-decreasing array
+- [x] 10.3 Sort an almost-sorted array
 ### Searching
 - [x] 11.1 Search a sorted array for the first occurrence of K ([a variant here for both first and last occurrences](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/))
 - [x] 11.2 Search a sorted array for entry equal to the index
+- [x] 11.3 Search a cylically sorted array
 ### Hash tables
 - [x] 12.1 Test for palindromic permutations
 - [x] 12.2 Is an anonymous letter constructible?
@@ -103,7 +107,7 @@ This repository contains solutions implemented by Long Nguyen.
 - [ ] 17.8 Compute the largest rectangle under a skyline
 ### Graphs
 - [x] 18.1 Searching a maze
-- [ ] 18.2 Paint a boolean matrix
+- [x] 18.2 Paint a boolean matrix
 
 
 

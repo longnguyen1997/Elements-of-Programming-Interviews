@@ -7,9 +7,29 @@ from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
 
+def cycle_length(node):
+    length, start = 0, node
+    while start:
+        start = start.next
+        length += 1
+        if start is node:
+            return length
+
+
 def has_cycle(head: ListNode) -> Optional[ListNode]:
-    # TODO - you fill in here.
-    return None
+    slow = fast = head
+    while fast and fast.next and fast.next.next:
+        slow = slow.next
+        fast = fast.next.next
+        if slow is fast:
+            a = b = head
+            # B is C ahead of A.
+            for _ in range(cycle_length(slow)):
+                b = b.next
+            while a is not b:
+                a = a.next
+                b = b.next
+            return a
 
 
 @enable_executor_hook

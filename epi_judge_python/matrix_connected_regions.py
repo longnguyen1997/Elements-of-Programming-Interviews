@@ -4,8 +4,17 @@ from test_framework import generic_test
 
 
 def flip_color(x: int, y: int, image: List[List[bool]]) -> None:
-    # TODO - you fill in here.
-    return
+    def traverse_and_flood(x, y, original_color):
+        if not 0 <= x < len(image) or not 0 <= y < len(image[0]):
+            return
+        if image[x][y] is not original_color:
+            return
+        image[x][y] = not original_color
+        traverse_and_flood(x - 1, y, original_color)
+        traverse_and_flood(x, y + 1, original_color)
+        traverse_and_flood(x + 1, y, original_color)
+        traverse_and_flood(x, y - 1, original_color)
+    traverse_and_flood(x, y, image[x][y])
 
 
 def flip_color_wrapper(x, y, image):
