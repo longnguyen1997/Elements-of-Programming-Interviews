@@ -85,6 +85,7 @@ This repository contains solutions implemented by Long Nguyen.
 ### Sorting
 - [x] 13.1 Compute the intersection of two sorted arrays
 - [x] 13.2 Merge two sorted arrays
+- [x] 13.3 Remove first-name duplicates
 ### Binary search trees
 - [x] 14.1 Determine whether a binary tree satisfies the BST property
 - [x] 14.2 Find the first key greater than a given value in a BST
@@ -92,14 +93,15 @@ This repository contains solutions implemented by Long Nguyen.
 ### Recursion
 - [x] 15.1 Towers of Hanoi
 - [x] 15.2 n-Queens
-- [ ] 15.3 Generate permutations
+- [x] 15.3 Generate all permutations
 ### Dynamic programming
 - [x] 16.1 Count the number of score combinations
 - [x] 16.2 Edit distance
+- [x] 16.3 Number of ways to traverse a matrix from top left to bottom right
 ### Greedy algorithms / invariants
 - [x] 17.1 Compute an optimal task assignment
 - [x] 17.2 Generate a schedule that minimizes waiting time
-- [ ] 17.3 Interval covering
+- [x] 17.3 Interval covering
 - [ ] 17.4 3-Sum
 - [ ] 17.5 Find the mode of a sequence
 - [ ] 17.6 The gasup problem
