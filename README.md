@@ -38,7 +38,7 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 6.1 Convert between strings and integers
 - [x] 6.2 Base conversion
 - [x] 6.3 Compute the spreadsheet column encoding
-- [ ] 6.4 Replace and remove
+- [x] 6.4 Replace and remove
 - [ ] 6.5 Test palindromity
 - [ ] 6.6 Reverse all the words in a sentence
 - [ ] 6.7 Compute all mnemonics for a phone number
