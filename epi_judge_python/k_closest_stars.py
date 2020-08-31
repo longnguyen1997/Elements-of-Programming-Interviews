@@ -4,6 +4,7 @@ from typing import Iterator, List
 
 from test_framework import generic_test
 from test_framework.test_utils import enable_executor_hook
+from heapq import *
 
 
 class Star:
@@ -28,8 +29,26 @@ class Star:
 
 
 def find_closest_k_stars(stars: Iterator[Star], k: int) -> List[Star]:
-    # TODO - you fill in here.
-    return []
+    
+    heap = []
+
+    for star in stars:
+        heappush(heap, (-star.distance, star))
+        if len(heap) > k:
+            heappop(heap)
+    return [star for _, star in heap]
+
+    # Idea: Use a heap to store closest stars, but reverse values.
+    # If length of heap exceeds k, pop farthest one (minimum one in reverse).
+    for star in stars:
+        if heap:
+            negative_distance, farthest_star = heap[0]
+        if len(heap) == k and negative_distance < -star.distance:
+            heappop(heap)
+            heappush(heap, (-star.distance, star))
+        elif len(heap) < k:
+            heappush(heap, (-star.distance, star))
+    return [star for _, star in heap]
 
 
 def comp(expected_output, output):

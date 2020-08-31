@@ -39,7 +39,7 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 6.2 Base conversion
 - [x] 6.3 Compute the spreadsheet column encoding
 - [x] 6.4 Replace and remove
-- [ ] 6.5 Test palindromity
+- [x] 6.5 Test palindromity
 - [ ] 6.6 Reverse all the words in a sentence
 - [ ] 6.7 Compute all mnemonics for a phone number
 - [ ] 6.8 Look and say
@@ -70,14 +70,17 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 9.1 Check if a binary tree is balanced
 - [x] 9.2 Check if a binary tree is symmetric
 - [x] 9.3 Find the lowest common ancestor of a binary tree
+- [x] 9.4 Find the lowest common ancestor given nodes with parent pointers
 ### Heaps
 - [x] 10.1 Merge sorted files
 - [x] 10.2 Sort an increasing-decreasing array
 - [x] 10.3 Sort an almost-sorted array
+- [x] 10.4 Find the k closest stars to Earth
 ### Searching
 - [x] 11.1 Search a sorted array for the first occurrence of K ([a variant here for both first and last occurrences](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/))
 - [x] 11.2 Search a sorted array for entry equal to the index
 - [x] 11.3 Search a cylically sorted array
+- [x] 11.4 Compute the integer square root
 ### Hash tables
 - [x] 12.1 Test for palindromic permutations
 - [x] 12.2 Is an anonymous letter constructible?
