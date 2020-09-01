@@ -20,10 +20,12 @@ def fill_surrounded_regions(board: List[List[str]]) -> None:
         flood(i + 1, j)
         flood(i, j - 1)
 
+    # Flood the perimeter.
     for i in range(m):
         for j in range(n):
             if any([i == 0, j == 0, i == m - 1, j == n - 1]):
                 flood(i, j)
+    # Reset visited tiles and blacken other white tiles.
     for i in range(m):
         for j in range(n):
             if board[i][j] is visited:

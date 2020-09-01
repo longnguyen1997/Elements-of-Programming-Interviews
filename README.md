@@ -52,7 +52,7 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 7.1 Merge two sorted lists
 - [x] 7.2 Reverse a single sublist
 - [x] 7.3 Test for cycles in a linked list
-- [ ] 7.4 Test for overlapping lists (acyclic)
+- [x] 7.4 Test for overlapping lists (acyclic)
 - [ ] 7.5 Test for overlapping lists (cycles allowed)
 - [ ] 7.6 Delete a node from a singly-linked list
 - [ ] 7.7 Remove the k-th last element from a linked list
@@ -66,6 +66,7 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 8.1 Implement a stack with a Max() API
 - [x] 8.2 Evaluate an RPN expression
 - [x] 8.3 Test a parenthesized string for wellness
+- [x] 8.4 Normalize pathnames
 ### Binary trees
 - [x] 9.1 Check if a binary tree is balanced
 - [x] 9.2 Check if a binary tree is symmetric
