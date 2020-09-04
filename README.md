@@ -86,22 +86,27 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 12.1 Test for palindromic permutations
 - [x] 12.2 Is an anonymous letter constructible?
 - [X] 12.3 Design an LRU cache
+- [x] 12.4 Find the lowest common ancestor efficiently with a hash table
 ### Sorting
 - [x] 13.1 Compute the intersection of two sorted arrays
 - [x] 13.2 Merge two sorted arrays
 - [x] 13.3 Remove first-name duplicates
+- [x] 13.4 Smallest nonconstructible change value
 ### Binary search trees
 - [x] 14.1 Determine whether a binary tree satisfies the BST property
 - [x] 14.2 Find the first key greater than a given value in a BST
 - [x] 14.3 Find the k largest values in a BST
+- [x] 14.4 Find the lowest common ancestor in a BST
 ### Recursion
 - [x] 15.1 Towers of Hanoi
 - [x] 15.2 n-Queens
 - [x] 15.3 Generate all permutations
+- [x] 15.4 Generate the power set
 ### Dynamic programming
 - [x] 16.1 Count the number of score combinations
 - [x] 16.2 Edit distance
 - [x] 16.3 Number of ways to traverse a matrix from top left to bottom right
+- [ ] 16.4 Compute binomial coefficients
 ### Greedy algorithms / invariants
 - [x] 17.1 Compute an optimal task assignment
 - [x] 17.2 Generate a schedule that minimizes waiting time
@@ -115,6 +120,7 @@ This repository contains solutions implemented by Long Nguyen.
 - [x] 18.1 Searching a maze
 - [x] 18.2 Paint a boolean matrix
 - [x] 18.3 Compute enclosed regions
+- [ ] 18.4 Deadlock detection
 
 
 ## Tracking your progress
